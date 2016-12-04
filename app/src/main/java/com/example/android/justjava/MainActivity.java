@@ -64,12 +64,6 @@ public class MainActivity extends AppCompatActivity {
 		}
 
 
-//		TextView priceTextView = (TextView) findViewById(R.id.price_text_view);
-//		priceTextView.setText("Name:"+guestName+
-//				"\nAdd whipped cream?"+isAddedCream+
-//				"\nAdd chocolate?" +isAddedChoco+
-//				"\nQuantity:"+quantity+
-//				"\nYou should pay $"+total);
 	}
 
 	private String createOrderSummary(String name, Boolean isAddedChoco, Boolean isAddedCream, int total){
